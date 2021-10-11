@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Garments Management Systembutton.jnlp">
+  <information>
+    <title>Garments Management Systembutton</title>
+    <vendor>Mohammad Rasel</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\commons-imaging-1.0-SNAPSHOT.jar" size="755120" download="eager" />
+    <jar href="lib\commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\itext-pdfa-5.5.9.jar" size="117922" download="eager" />
+    <jar href="lib\itext-xtra-5.5.9.jar" size="119941" download="eager" />
+    <jar href="lib\itextpdf-5.5.9.jar" size="2287148" download="eager" />
+    <jar href="lib\jxl-2.6.12.1.jar" size="726430" download="eager" />
+    <jar href="lib\sqljdbc41.jar" size="900895" download="eager" />
+    <jar href="lib\sqljdbc42.jar" size="898868" download="eager" />
+    <jar href="lib\xmlworker-5.5.9.jar" size="251792" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Garments Management Systembutton" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="garments.management.system.GarmentsManagementSystem"  name="Garments Management Systembutton" />
+  <update check="always"/>
+</jnlp>
